@@ -15,7 +15,7 @@ public class Calculadora {
         double Soma = number1 + number2;                              //+ é soma
         double Subtracao = number1 - number2;                         //- subtração
         double Multiplicacao = number1 * number2;                     //* Multiplicação
-        double Divisao = number2 !=0 ?number1 / number2 : Double.NaN; // Divisão,Evita divisão por 0 
+        double Divisao = number2 !=0 ?number1 / number2 : Double.NaN; // / Divisão,Evita divisão por 0 
         double SobradaDivisao = number1 % number2;                    //% Módulo
         
         //Exibição de resultados
